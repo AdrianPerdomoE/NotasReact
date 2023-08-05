@@ -1,0 +1,5 @@
+ctr + ñ para abrir consola o ctrl + `
+Comandos:
+npx  create-react-app <nombre de la app>
+npx create-react-app <nombre de la app> --template typescript
+npm start para iniciar la aplicacion en react
