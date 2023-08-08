@@ -1,5 +1,5 @@
 {
-  "name": "basic-calculator",
+  "name": "task-manager",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,9 +8,8 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.39",
-    "@types/react": "^18.2.18",
+    "@types/react": "^18.2.19",
     "@types/react-dom": "^18.2.7",
-    "mathjs": "^11.9.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
