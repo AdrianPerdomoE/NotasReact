@@ -8,9 +8,17 @@
 html,
 body {
   color: white;
-  background-color: #1b1b32;
+  background-color: #e0cd7e;
   font-family: Lato, sans-serif;
   margin-top: 40px;
+}
+
+h1 {
+  color: #1b1b32;
+  font-size: 25px;
+  font-family: roboto, sans-serif;
+  text-align: center;
+  margin: 20px 0;
 }
 
 .App {
@@ -20,33 +28,35 @@ body {
   align-items: center;
 }
 
-.App {
-  width: 100%;
-  height: 100vh;
-  padding-top: 5px;
-  background-color: #4b5b6b;
-  font-family: Lato, sans-serif;
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .logo-container {
-  border-radius: 100%;
+  border-radius: 20px;
   margin: 4px;
-  border: 2px solid black;
+
+  border: 2px solid #aaa;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 15vh;
-  flex: 1 1;
+  aspect-ratio: 1;
   overflow: hidden;
-
+  background-color: aliceblue;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .logo {
-  height: 20vh;
+  height: 15vh;
 
+}
+
+.task-list {
+  width: 600px;
+  min-height: 500px;
+  background-color: #d0d0d5;
+  padding: 25px;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 26px;
 }
