@@ -4,7 +4,7 @@ import React, { useState } from "react"
 import { Task } from "./Task";
 
 export function TaskList(): JSX.Element {
-    const [tasks, setTasks] = useState(new Array<{ text: string, completed: boolean }>);
+    const [tasks, setTasks] = useState(new Array<{ text: string, completed: boolean }>());
     const add = (task: { text: string, completed: boolean }): void => {
         setTasks([task, ...tasks]);
     }
